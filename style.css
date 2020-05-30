@@ -1,0 +1,33 @@
+:root {
+    --primary-color-background: #ffffff;
+
+}
+
+.imgPadding {
+    margin-top: 15px;
+}
+
+.txtPadding {
+    margin-top: 15px;
+}
+
+body {
+    margin-top: 10%;
+    background-color: var(--primary-color-background);
+
+  }
+
+.mainPage {
+
+}
+
+.card {
+    background-color: #cbffff;
+}
+
+.filler {
+    background-color: var(--primary-color-background);
+}
+.header {
+
+}
