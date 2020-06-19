@@ -1,19 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
 :root {
-    --primary-color-background: #ffffff;
+    --primary-color-background: #f9eeeb;
 
 }
+
 
 .imgPadding {
     margin-top: 15px;
 }
 
 .txtPadding {
-    margin-top: 15px;
+    margin-top: 30px;
+    font-size: 13px;
+    
+}
+
+.textFind {
+    margin-top: 30px;
+    color: #80645d;
+    line-height: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     margin-top: 10%;
     background-color: var(--primary-color-background);
+
 
   }
 
@@ -22,7 +38,7 @@ body {
 }
 
 .card {
-    background-color: #cbffff;
+    background-color: #f9eeeb;
 }
 
 .filler {
@@ -30,4 +46,23 @@ body {
 }
 .header {
 
+}
+
+.linkBoxes {
+    height: 60px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 1.5px solid #af8383;
+}
+
+.pI {
+    font-style: italic;
+}
+
+.pB {
+    font-weight: 500;
+}
+
+.pLink {
+    line-height: 60px;
 }
